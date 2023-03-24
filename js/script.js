@@ -50,3 +50,36 @@ var swiper = new Swiper(".review-slider", {
         },
     },
 });
+
+const boxClear = document.querySelectorAll(".box-clear");
+const boxItem = document.querySelectorAll(".box-item");
+const cartTotal = document.querySelector(".cart-total");
+const shoppingCart = document.querySelector(".shopping-cart");
+
+[...boxClear].forEach(item => {
+    item.addEventListener("click", function() {
+        item.parentNode.parentNode.removeChild(item.parentNode);
+    });
+});
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
